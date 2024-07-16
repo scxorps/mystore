@@ -59,7 +59,7 @@ List<Product> products = [
   Product(
     id: 6,
     price: 100,
-    title: 'rode mic',
+    title: 'Hitech mic',
     SubTitle: 'high quality microphone',
     description: 'description',
     image: "images/gm.png",

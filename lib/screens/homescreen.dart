@@ -29,6 +29,7 @@ class HomeScreen extends StatelessWidget {
       actions: [
         IconButton(
           icon: Icon(Icons.menu),
+          //does nothing for now 
           onPressed: () {},
         ),
       ],

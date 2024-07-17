@@ -21,15 +21,6 @@ class MyApp extends StatelessWidget {
         primaryColor: kPrimaryColor,
         colorScheme: ColorScheme.fromSwatch().copyWith(secondary: kPrimaryColor),
       ),
-      localizationsDelegates: {
-        GlobalCupertinoLocalizations.delegate,
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-      },
-      supportedLocales: [
-        Locale('en', 'US'),
-        Locale('ar', 'EG'),
-      ],
       home: HomeScreen(),
     );
   }
